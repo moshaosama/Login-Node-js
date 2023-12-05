@@ -1,0 +1,110 @@
+body {
+    background-color: #848080;
+}
+.Bank {
+    text-align: center;
+    border: 10px black solid;
+    margin: 2pc 30pc;
+    padding: 5pc 0pc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Text_Dep {
+    display: flow-root;
+    padding: 10px;
+    font-size: x-large;
+    font-family: fantasy;
+    color: black;
+    
+}
+.Total {
+    position: relative;
+    bottom: 6pc;
+    font-family: fantasy;
+}
+#Salary {
+    position: relative;
+    bottom: 3pc;
+    font-family: fantasy;
+    font-size: xxx-large;
+    text-overflow: clip;
+    
+}
+#Inp_Dep {
+    width: 13pc;
+    height: 2pc;
+    border-radius: 20px;
+    padding: 0px 5px;
+    font-size: larger;
+    font-family: fantasy;
+}
+#Btn-Dep {
+    height: 2pc;
+    width: 6pc;
+    border-radius: 100px;
+    background-color:white ;
+    color: black;
+    font-family: fantasy;
+    font-size: medium;
+    position: relative;
+    bottom: 5px;
+    text-shadow: 5px 5px 15px black; 
+}
+.Text_Dra{
+    display: flow-root;
+    padding: 10px;
+    font-size: x-large;
+    font-family: fantasy;
+    color: black;
+}
+#Inp_Dra {
+    width: 13pc;
+    height: 2pc;
+    border-radius: 20px;
+    padding: 0px 5px;
+    font-size: larger;
+    font-family: fantasy;
+}
+#Btn-Dra {
+    height: 2pc;
+    width: 6pc;
+    border-radius: 100px;
+    background-color:white ;
+    color: black;
+    font-family: fantasy;
+    font-size: medium;
+    position: relative;
+    bottom: 5px;
+    text-shadow: 5px 5px 15px black;
+}
+#Error {
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 30px;
+    position: relative;
+    right: 8.5pc;
+    bottom:2px;
+    color: white;
+    font-size: medium;
+    font-family: fantasy;
+    display: none;
+}
+
+.DarkMood {
+    background-color:#848080;
+    margin:0px 92pc 0px 0px;
+    border-radius: 100px;
+    position: relative;
+    top: 7.5pc;
+    left: 33pc;
+    cursor: pointer;
+}
+.LightMood {
+    background-color:black;
+    margin:0px 92pc 0px 0px;
+    border-radius: 100px;
+    position: relative;
+    top: 7.5pc;
+    left: 33pc;
+    cursor: pointer;
+    display: none;
+}
